@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CryptoLore Explorer - Unraveling Blockchain Mysteries</title>
-    <meta name="description" content="Explore the mysterious world of cryptocurrency legends, untold stories, and blockchain mysteries. Your gateway to crypto's most intriguing narratives.">
-    <meta name="keywords" content="crypto mysteries, blockchain stories, cryptocurrency legends, crypto investigation, web3 mysteries">
+    <title>CryptoLore Explorer - @shl0ms Investigation Hub</title>
+    <meta name="description" content="Deep dive into @shl0ms's revolutionary crypto investigations and the $PUMP token phenomenon">
+    <meta name="keywords" content="shl0ms, PUMP token, crypto mysteries, blockchain stories, cryptocurrency legends">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .mobile-menu {
+            display: none;
+        }
+        .mobile-menu.active {
+            display: block;
+        }
+    </style>
 </head>
 <body class="bg-gradient-to-r from-purple-900 to-black text-gray-100 min-h-screen flex flex-col">
     <header class="bg-black/80 backdrop-blur-sm fixed w-full z-50">
@@ -14,12 +22,20 @@
             <div class="flex justify-between items-center">
                 <a href="/generated-website-1734191752590/home.html" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">CryptoLore</a>
                 <div class="hidden md:flex space-x-6">
+                    <a href="https://twitter.com/shl0ms" target="_blank" class="hover:text-purple-400 transition">@shl0ms Twitter</a>
+                    <a href="https://dexscreener.com/solana/9qriMjPPAJTMCtfQnz7Mo9BsV2jAWTr2ff7yc3JWpump" target="_blank" class="hover:text-purple-400 transition">$PUMP Chart</a>
                     <a href="/generated-website-1734191752590/investigations.html" class="hover:text-purple-400 transition">Investigations</a>
-                    <a href="/generated-website-1734191752590/artifacts.html" class="hover:text-purple-400 transition">Artifacts</a>
                     <a href="/generated-website-1734191752590/timeline.html" class="hover:text-purple-400 transition">Timeline</a>
-                    <a href="/generated-website-1734191752590/debunked.html" class="hover:text-purple-400 transition">Debunked</a>
                 </div>
-                <button class="md:hidden text-2xl">☰</button>
+                <button class="md:hidden text-2xl" aria-label="Toggle mobile menu" onclick="document.querySelector('.mobile-menu').classList.toggle('active')">☰</button>
+            </div>
+            <div class="mobile-menu md:hidden bg-black/95 mt-2 p-4 rounded-lg">
+                <div class="flex flex-col space-y-3">
+                    <a href="https://twitter.com/shl0ms" target="_blank" class="hover:text-purple-400 transition">@shl0ms Twitter</a>
+                    <a href="https://dexscreener.com/solana/9qriMjPPAJTMCtfQnz7Mo9BsV2jAWTr2ff7yc3JWpump" target="_blank" class="hover:text-purple-400 transition">$PUMP Chart</a>
+                    <a href="/generated-website-1734191752590/investigations.html" class="hover:text-purple-400 transition">Investigations</a>
+                    <a href="/generated-website-1734191752590/timeline.html" class="hover:text-purple-400 transition">Timeline</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -28,46 +44,37 @@
         <div class="grid md:grid-cols-12 gap-6">
             <aside class="md:col-span-3 space-y-4">
                 <div class="bg-purple-900/20 p-4 rounded-lg backdrop-blur-sm">
-                    <h3 class="text-xl font-bold mb-3">Latest Events</h3>
+                    <h3 class="text-xl font-bold mb-3">$PUMP Updates</h3>
                     <ul class="space-y-2">
-                        <li><a href="/generated-website-1734191752590/events/lambo-incident.html" class="hover:text-purple-400">The Lambo Incident</a></li>
-                        <li><a href="/generated-website-1734191752590/events/gmail-leak.html" class="hover:text-purple-400">Gmail Chronicles</a></li>
-                        <li><a href="/generated-website-1734191752590/events/cybertruck-mystery.html" class="hover:text-purple-400">Cybertruck Mystery</a></li>
+                        <li><a href="https://twitter.com/shl0ms/status/1234567890" class="hover:text-purple-400">Latest @shl0ms Thread</a></li>
+                        <li><a href="/generated-website-1734191752590/pump-analysis.html" class="hover:text-purple-400">PUMP Technical Analysis</a></li>
+                        <li><a href="/generated-website-1734191752590/community-insights.html" class="hover:text-purple-400">Community Insights</a></li>
                     </ul>
-                </div>
-                
-                <div class="bg-purple-900/20 p-4 rounded-lg backdrop-blur-sm">
-                    <h3 class="text-xl font-bold mb-3">Trending Topics</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <a href="/generated-website-1734191752590/tag/defi.html" class="text-sm bg-purple-800/40 px-2 py-1 rounded-full hover:bg-purple-700/40">#DeFi</a>
-                        <a href="/generated-website-1734191752590/tag/nft.html" class="text-sm bg-purple-800/40 px-2 py-1 rounded-full hover:bg-purple-700/40">#NFT</a>
-                        <a href="/generated-website-1734191752590/tag/dao.html" class="text-sm bg-purple-800/40 px-2 py-1 rounded-full hover:bg-purple-700/40">#DAO</a>
-                    </div>
                 </div>
             </aside>
 
             <section class="md:col-span-9">
                 <div class="bg-purple-900/20 p-6 rounded-lg backdrop-blur-sm">
-                    <h1 class="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Welcome to CryptoLore Explorer</h1>
+                    <h1 class="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">@shl0ms Investigation Hub</h1>
                     
                     <div class="space-y-6">
                         <div class="bg-black/30 p-4 rounded-lg">
-                            <h2 class="text-2xl font-bold mb-3">Featured Investigation: The Satoshi Letters</h2>
-                            <p class="text-gray-300 mb-4">Recently uncovered correspondence suggests new insights into the mysterious disappearance of Bitcoin's creator. Our team of blockchain archaeologists has been working tirelessly to verify the authenticity of these documents.</p>
-                            <a href="/generated-website-1734191752590/investigations/satoshi-letters.html" class="inline-block bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg transition">Read More</a>
+                            <h2 class="text-2xl font-bold mb-3">Featured: $PUMP Token Analysis</h2>
+                            <p class="text-gray-300 mb-4">Deep dive into the revolutionary $PUMP token (CA: 9qriMjPPAJTMCtfQnz7Mo9BsV2jAWTr2ff7yc3JWpump) and its impact on the Solana ecosystem.</p>
+                            <a href="https://dexscreener.com/solana/9qriMjPPAJTMCtfQnz7Mo9BsV2jAWTr2ff7yc3JWpump" target="_blank" class="inline-block bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg transition">View Chart</a>
                         </div>
 
                         <div class="grid md:grid-cols-2 gap-4">
                             <div class="bg-black/30 p-4 rounded-lg">
-                                <h3 class="text-xl font-bold mb-2">Latest Artifact Discovery</h3>
-                                <p class="text-gray-300 mb-3">The Genesis Block Terminal: A preserved computer claimed to be used in Bitcoin's earliest days.</p>
-                                <a href="/generated-website-1734191752590/artifacts/genesis-terminal.html" class="text-purple-400 hover:text-purple-300">Examine Evidence →</a>
+                                <h3 class="text-xl font-bold mb-2">@shl0ms's Latest Insights</h3>
+                                <p class="text-gray-300 mb-3">Follow the latest developments and analysis from crypto's leading investigator.</p>
+                                <a href="https://twitter.com/shl0ms" target="_blank" class="text-purple-400 hover:text-purple-300">Follow on Twitter →</a>
                             </div>
 
                             <div class="bg-black/30 p-4 rounded-lg">
-                                <h3 class="text-xl font-bold mb-2">Community Spotlight</h3>
-                                <p class="text-gray-300 mb-3">Join our weekly mystery-solving sessions where we collectively analyze blockchain anomalies.</p>
-                                <a href="/generated-website-1734191752590/community/sessions.html" class="text-purple-400 hover:text-purple-300">Join Session →</a>
+                                <h3 class="text-xl font-bold mb-2">Community Discussion</h3>
+                                <p class="text-gray-300 mb-3">Join the conversation about $PUMP and @shl0ms's investigations.</p>
+                                <a href="/generated-website-1734191752590/community/discussions.html" class="text-purple-400 hover:text-purple-300">Join Discussion →</a>
                             </div>
                         </div>
                     </div>
@@ -78,26 +85,10 @@
 
     <footer class="bg-black/80 backdrop-blur-sm mt-12">
         <div class="container mx-auto px-4 py-6">
-            <div class="grid md:grid-cols-3 gap-8">
-                <div>
-                    <h4 class="text-lg font-bold mb-3">About</h4>
-                    <p class="text-sm text-gray-400">Exploring the untold stories and mysteries of the crypto universe.</p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold mb-3">Quick Links</h4>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="/generated-website-1734191752590/submit.html" class="hover:text-purple-400">Submit a Story</a></li>
-                        <li><a href="/generated-website-1734191752590/verify.html" class="hover:text-purple-400">Verification Portal</a></li>
-                        <li><a href="/generated-website-1734191752590/archive.html" class="hover:text-purple-400">Archives</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold mb-3">Connect</h4>
-                    <div class="flex space-x-4">
-                        <a href="/generated-website-1734191752590/discord.html" class="hover:text-purple-400">Discord</a>
-                        <a href="/generated-website-1734191752590/twitter.html" class="hover:text-purple-400">Twitter</a>
-                        <a href="/generated-website-1734191752590/telegram.html" class="hover:text-purple-400">Telegram</a>
-                    </div>
+            <div class="text-center">
+                <p class="text-sm text-gray-400">Follow @shl0ms for the latest updates and insights.</p>
+                <div class="mt-4">
+                    <a href="https://twitter.com/shl0ms" target="_blank" class="text-purple-400 hover:text-purple-300">Twitter</a>
                 </div>
             </div>
             <div class="mt-8 pt-4 border-t border-purple-900/30 text-center text-sm text-gray-400">
