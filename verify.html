@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification Portal - CryptoLore Explorer</title>
+    <meta name="description" content="Verify crypto stories, incidents, and artifacts through our decentralized verification system. Join our network of truth seekers.">
+    <meta name="keywords" content="crypto verification, blockchain truth, digital artifacts, crypto mysteries">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-purple-900 to-black text-gray-100 min-h-screen flex flex-col">
+    <header class="bg-black/80 backdrop-blur-sm fixed w-full z-50">
+        <nav class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734191752590/home.html" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">CryptoLore</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1734191752590/investigations.html" class="hover:text-purple-400 transition">Investigations</a>
+                    <a href="/generated-website-1734191752590/artifacts.html" class="hover:text-purple-400 transition">Artifacts</a>
+                    <a href="/generated-website-1734191752590/timeline.html" class="hover:text-purple-400 transition">Timeline</a>
+                    <a href="/generated-website-1734191752590/debunked.html" class="hover:text-purple-400 transition">Debunked</a>
+                </div>
+                <button class="md:hidden text-2xl">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 pt-24 flex-grow">
+        <div class="grid md:grid-cols-12 gap-6">
+            <aside class="md:col-span-3 space-y-4">
+                <div class="bg-purple-900/20 p-4 rounded-lg backdrop-blur-sm">
+                    <h3 class="text-xl font-bold mb-3">Verification Tools</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734191752590/verify/chain-analysis.html" class="hover:text-purple-400">Chain Analysis</a></li>
+                        <li><a href="/generated-website-1734191752590/verify/signature-check.html" class="hover:text-purple-400">Signature Verification</a></li>
+                        <li><a href="/generated-website-1734191752590/verify/metadata.html" class="hover:text-purple-400">Metadata Scanner</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section class="md:col-span-9">
+                <div class="bg-purple-900/20 p-6 rounded-lg backdrop-blur-sm">
+                    <h1 class="text-3xl font-bold mb-6">Verification Portal</h1>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-black/30 p-4 rounded-lg">
+                            <h2 class="text-xl font-semibold mb-4">Submit for Verification</h2>
+                            <form method="GET" action="/generated-website-1734191752590/verify/submit" class="space-y-4">
+                                <div>
+                                    <label class="block mb-2">Transaction Hash or URL</label>
+                                    <input type="text" name="hash" class="w-full bg-purple-900/20 border border-purple-500/30 rounded p-2 text-white" placeholder="0x..." required>
+                                </div>
+                                <div>
+                                    <label class="block mb-2">Verification Type</label>
+                                    <select name="type" class="w-full bg-purple-900/20 border border-purple-500/30 rounded p-2 text-white">
+                                        <option value="transaction">Transaction Verification</option>
+                                        <option value="artifact">Artifact Authentication</option>
+                                        <option value="story">Story Correlation</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded">Verify</button>
+                            </form>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-black/30 p-4 rounded-lg">
+                                <h3 class="text-lg font-semibold mb-3">Recent Verifications</h3>
+                                <ul class="space-y-2">
+                                    <li><a href="/generated-website-1734191752590/verify/result/1234.html" class="hover:text-purple-400">✓ Satoshi's Last Email</a></li>
+                                    <li><a href="/generated-website-1734191752590/verify/result/1235.html" class="hover:text-purple-400">✗ Fake NFT Collection</a></li>
+                                    <li><a href="/generated-website-1734191752590/verify/result/1236.html" class="hover:text-purple-400">⟳ Pizza Transaction Analysis</a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-black/30 p-4 rounded-lg">
+                                <h3 class="text-lg font-semibold mb-3">Verification Stats</h3>
+                                <div class="space-y-2">
+                                    <p>Total Verifications: 1,337</p>
+                                    <p>Success Rate: 78%</p>
+                                    <p>Active Verifiers: 42</p>
+                                    <a href="/generated-website-1734191752590/verify/stats.html" class="text-purple-400 hover:underline">View Full Stats</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-black/80 backdrop-blur-sm mt-12">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h4 class="text-lg font-bold mb-3">About</h4>
+                    <p class="text-sm text-gray-400">Exploring the untold stories and mysteries of the crypto universe.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/generated-website-1734191752590/submit.html" class="hover:text-purple-400">Submit a Story</a></li>
+                        <li><a href="/generated-website-1734191752590/verify.html" class="hover:text-purple-400">Verification Portal</a></li>
+                        <li><a href="/generated-website-1734191752590/archive.html" class="hover:text-purple-400">Archives</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="/generated-website-1734191752590/discord.html" class="hover:text-purple-400">Discord</a>
+                        <a href="/generated-website-1734191752590/twitter.html" class="hover:text-purple-400">Twitter</a>
+                        <a href="/generated-website-1734191752590/telegram.html" class="hover:text-purple-400">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-4 border-t border-purple-900/30 text-center text-sm text-gray-400">
+                <p>© 2024 CryptoLore Explorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

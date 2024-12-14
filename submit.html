@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit your crypto mysteries, unexplained events, and blockchain folklore to CryptoLore Explorer. Help us document the untold stories of Web3.">
+    <meta name="keywords" content="crypto stories, blockchain mysteries, web3 folklore, cryptocurrency tales, submit story">
+    <title>Submit Your Story - CryptoLore Explorer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-purple-900 to-black text-gray-100 min-h-screen flex flex-col">
+    <header class="bg-black/80 backdrop-blur-sm fixed w-full z-50">
+        <nav class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734191752590/home.html" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">CryptoLore</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1734191752590/investigations.html" class="hover:text-purple-400 transition">Investigations</a>
+                    <a href="/generated-website-1734191752590/artifacts.html" class="hover:text-purple-400 transition">Artifacts</a>
+                    <a href="/generated-website-1734191752590/timeline.html" class="hover:text-purple-400 transition">Timeline</a>
+                    <a href="/generated-website-1734191752590/debunked.html" class="hover:text-purple-400 transition">Debunked</a>
+                </div>
+                <button class="md:hidden text-2xl">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 pt-24 flex-grow">
+        <div class="grid md:grid-cols-12 gap-6">
+            <aside class="md:col-span-3 space-y-4">
+                <div class="bg-purple-900/20 p-4 rounded-lg backdrop-blur-sm">
+                    <h3 class="text-xl font-bold mb-3">Submission Guidelines</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/generated-website-1734191752590/guidelines/evidence.html" class="hover:text-purple-400">Evidence Requirements</a></li>
+                        <li><a href="/generated-website-1734191752590/guidelines/formatting.html" class="hover:text-purple-400">Story Formatting</a></li>
+                        <li><a href="/generated-website-1734191752590/guidelines/verification.html" class="hover:text-purple-400">Verification Process</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section class="md:col-span-9">
+                <div class="bg-purple-900/20 p-6 rounded-lg backdrop-blur-sm">
+                    <h1 class="text-3xl font-bold mb-6">Submit Your Story</h1>
+                    <p class="mb-6 text-gray-300">Have you witnessed something extraordinary in the crypto space? Share your story with our community of investigators and enthusiasts.</p>
+                    
+                    <form action="/generated-website-1734191752590/submit/process" method="GET" class="space-y-6">
+                        <div class="space-y-2">
+                            <label for="title" class="block text-sm font-medium">Story Title</label>
+                            <input type="text" id="title" name="title" required class="w-full bg-purple-900/30 border border-purple-500/30 rounded-lg p-3 text-gray-100 focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                        </div>
+
+                        <div class="space-y-2">
+                            <label for="category" class="block text-sm font-medium">Category</label>
+                            <select id="category" name="category" required class="w-full bg-purple-900/30 border border-purple-500/30 rounded-lg p-3 text-gray-100">
+                                <option value="mystery">Unsolved Mystery</option>
+                                <option value="artifact">Digital Artifact</option>
+                                <option value="phenomenon">Blockchain Phenomenon</option>
+                                <option value="conspiracy">Crypto Conspiracy</option>
+                            </select>
+                        </div>
+
+                        <div class="space-y-2">
+                            <label for="story" class="block text-sm font-medium">Your Story</label>
+                            <textarea id="story" name="story" rows="6" required class="w-full bg-purple-900/30 border border-purple-500/30 rounded-lg p-3 text-gray-100 focus:ring-2 focus:ring-purple-500 focus:border-transparent"></textarea>
+                        </div>
+
+                        <div class="space-y-2">
+                            <label for="evidence" class="block text-sm font-medium">Evidence Links (Optional)</label>
+                            <input type="url" id="evidence" name="evidence" class="w-full bg-purple-900/30 border border-purple-500/30 rounded-lg p-3 text-gray-100">
+                        </div>
+
+                        <div class="space-y-2">
+                            <label for="wallet" class="block text-sm font-medium">Wallet Address (for verification)</label>
+                            <input type="text" id="wallet" name="wallet" required class="w-full bg-purple-900/30 border border-purple-500/30 rounded-lg p-3 text-gray-100">
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <input type="checkbox" id="terms" name="terms" required class="rounded bg-purple-900/30 border-purple-500/30">
+                            <label for="terms" class="text-sm">I agree to the <a href="/generated-website-1734191752590/terms.html" class="text-purple-400 hover:underline">terms and conditions</a></label>
+                        </div>
+
+                        <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">Submit Story</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-black/80 backdrop-blur-sm mt-12">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h4 class="text-lg font-bold mb-3">About</h4>
+                    <p class="text-sm text-gray-400">Exploring the untold stories and mysteries of the crypto universe.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/generated-website-1734191752590/submit.html" class="hover:text-purple-400">Submit a Story</a></li>
+                        <li><a href="/generated-website-1734191752590/verify.html" class="hover:text-purple-400">Verification Portal</a></li>
+                        <li><a href="/generated-website-1734191752590/archive.html" class="hover:text-purple-400">Archives</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="/generated-website-1734191752590/discord.html" class="hover:text-purple-400">Discord</a>
+                        <a href="/generated-website-1734191752590/twitter.html" class="hover:text-purple-400">Twitter</a>
+                        <a href="/generated-website-1734191752590/telegram.html" class="hover:text-purple-400">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-4 border-t border-purple-900/30 text-center text-sm text-gray-400">
+                <p>© 2024 CryptoLore Explorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
